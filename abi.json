@@ -1,0 +1,95 @@
+[
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "newPaperId",
+				"type": "uint256"
+			},
+			{
+				"name": "newContractType",
+				"type": "string"
+			},
+			{
+				"name": "newTimeStamp",
+				"type": "uint256"
+			},
+			{
+				"name": "newFileHash",
+				"type": "string"
+			},
+			{
+				"name": "newGapSign",
+				"type": "string"
+			},
+			{
+				"name": "newEulSign",
+				"type": "string"
+			}
+		],
+		"name": "set_all",
+		"outputs": [
+			{
+				"name": "PaperId",
+				"type": "uint256"
+			},
+			{
+				"name": "ContractType",
+				"type": "string"
+			},
+			{
+				"name": "TimeStamp",
+				"type": "uint256"
+			},
+			{
+				"name": "FileHash",
+				"type": "string"
+			},
+			{
+				"name": "GapSign",
+				"type": "string"
+			},
+			{
+				"name": "EulSign",
+				"type": "string"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "get_all",
+		"outputs": [
+			{
+				"name": "PaperId",
+				"type": "uint256"
+			},
+			{
+				"name": "ContractType",
+				"type": "string"
+			},
+			{
+				"name": "TimeStamp",
+				"type": "uint256"
+			},
+			{
+				"name": "FileHash",
+				"type": "string"
+			},
+			{
+				"name": "GapSign",
+				"type": "string"
+			},
+			{
+				"name": "EulSign",
+				"type": "string"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
